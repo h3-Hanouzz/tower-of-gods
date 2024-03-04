@@ -1,5 +1,5 @@
-scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
-	
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, location) {
+    tiles.setCurrentTilemap(tilemap`level5`)
 })
 let mySprite = sprites.create(img`
     .............ffffff.............
